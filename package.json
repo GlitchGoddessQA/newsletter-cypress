@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test:cy": "npx cypress open",
+    "cy:run": "npx cypress run"
     "format": "npx prettier --write .",
     "lint": "eslint"
   },
