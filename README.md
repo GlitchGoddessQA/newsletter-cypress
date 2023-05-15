@@ -1,5 +1,9 @@
 # Cypress newsletter example
 
+## Screencast with details:
+
+- https://www.loom.com/share/dbfe00f08a044674bcfd2bf3250c6fcc
+
 ## Installation:
 
 - clone the git repo with
