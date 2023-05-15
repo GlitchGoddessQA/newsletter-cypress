@@ -5,3 +5,4 @@ package-lock.json
 README.md
 .eslintrc.js
 tsconfig.json
+.github/
