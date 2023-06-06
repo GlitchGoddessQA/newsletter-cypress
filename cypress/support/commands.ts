@@ -40,9 +40,7 @@ require('@4tw/cypress-drag-drop');
 import Chainable = Cypress.Chainable;
 
 declare global {
-  // eslint-disable-next-line @typescript-eslint/no-namespace
   namespace Cypress {
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     interface Chainable<Subject = any> {
       /**
        * Custom command to wait for all Chainable

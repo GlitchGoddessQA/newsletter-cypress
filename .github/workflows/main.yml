@@ -14,5 +14,5 @@ jobs:
         with:
           project: ./cypress
           browser: chrome
-          build: npm install
-          test: npm run test:cy
+          start: npm install
+          build: npm run test:cy

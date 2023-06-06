@@ -67,7 +67,7 @@ describe('newsletters', () => {
       doc.firstArticle.click();
       cy.wait(2000);
 
-      // enter new desc and check it
+      // enter new description and check it
       cy.get('[class*="inEditMode"]').find(`div:contains(${desc}):last`).siblings(':contains(edit)').click();
       cy.get('[data-editor]').type(newDescValue);
 
